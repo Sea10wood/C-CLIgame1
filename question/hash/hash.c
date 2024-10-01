@@ -3,7 +3,7 @@
 #include <string.h>
 #include <openssl/sha.h>
 #include "hash.h"
-#include "utils.h"
+#include "salt.h"
 
 void get_hashed_answer(const char *answer, char *hashed_result) {
     char *salt = get_salt_from_env();

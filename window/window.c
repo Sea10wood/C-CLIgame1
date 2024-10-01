@@ -28,7 +28,7 @@ int create_window(const char *title, int width, int height) {
         return -1;
     }
 
-    font = TTF_OpenFont("/font.ttf", 24);
+    font = TTF_OpenFont("font/font.ttf", 24);
     if (!font) {
         printf("Font could not be loaded! TTF_Error: %s\n", TTF_GetError());
         return -1;

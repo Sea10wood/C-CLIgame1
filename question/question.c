@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "menu.h"
+#include "./question.h"
 
-int show_menu(const char* prompt, const char* choices[], int num_choices) {
+int show_question(const char* prompt, const char* choices[], int num_choices) {
     printf("%s\n", prompt);
     for (int i = 0; i < num_choices; i++) {
         printf("%d. %s\n", i + 1, choices[i]);

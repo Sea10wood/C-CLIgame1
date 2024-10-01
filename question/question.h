@@ -1,6 +1,6 @@
-#ifndef MENU_H
-#define MENU_H
+#ifndef question_H
+#define question_H
 
-int show_menu(const char* prompt, const char* choices[], int num_choices); 
+int show_question(const char* prompt, const char* choices[], int num_choices); 
 
 #endif
